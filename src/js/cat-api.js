@@ -1,9 +1,9 @@
 const url1 = 'https://api.thecatapi.com/v1/breeds';
 const url2 = 'https://api.thecatapi.com/v1/images';
 
-//Унікальний ключ доступу до Cat API
+//Мій ключ доступу до CatAPI
 const KEY =
-  'live_HEs7npt4enTv8IppoFAzotzjElNW9aw61wQB5T2Fw18DPSakhIju9elgFzOgYqmc';
+  'live_QWpcFK8RDQNixTwCH3rDYVV7QVkC4CMtlgILvCFvVqu3G5nagZEgozDLY8826ZG3';
 
 //Функція, що фетчить список усіх порід котів
 const fetchBreeds = () => {

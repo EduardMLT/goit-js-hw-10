@@ -19,10 +19,10 @@ function onChangeSelect(event) {
   divPictEl.innerHTML = '';
   divDescEl.innerHTML = '';
   const breedId = event.target.value;
-  console.log('breedId: ', breedId);
+  console.log('index.js - breedId: ', breedId);
   fetchCatByBreed(breedId)
     .then(breed => renderBreedDesc(breed))
-    // .then(breed => console.log(breed))
+     //.then(breed => console.log(breed))
     .catch(error => {
       console.log(error);
       Notiflix.Notify.failure(
@@ -33,3 +33,4 @@ function onChangeSelect(event) {
 }
 
 export { breedSelect, divPictEl, divDescEl, loaderEl };
+export { onChangeSelect };
