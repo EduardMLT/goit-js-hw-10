@@ -5,7 +5,7 @@ import { renderBreedDesc } from './renderBreedDesc';
 import { onChangeSelect } from './index';
 import { divPictEl, divDescEl } from './index';
 
-//Функція, що фетчить дані та на їх основі створює розмітку випадаючого списку (працює відразу після завантаження сторінки)
+//Після звернення до сторінки створюємо розмітку в HTML файлі
 const fetchAndRenderBreeds = () => {
   loaderEl.classList.remove('unvisible');
   fetchBreeds()

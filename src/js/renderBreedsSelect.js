@@ -2,7 +2,7 @@ import { breedSelect } from './index';
 import SlimSelect from 'slim-select';
 import 'slim-select/dist/slimselect.css';
 
-//Функція, що генерує розмітку випадаючого списку
+//Генеруємо розмітку випадаючого списку
 const renderBreedsSelect = breeds => {
   const markup = breeds
     .map(breed => {

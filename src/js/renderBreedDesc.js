@@ -1,6 +1,6 @@
 import { divPictEl, divDescEl } from './index';
 
-//Функція, що генерує розмітку опису обраної породи кота (картинка та текст)
+//Генеруємо розмітку опису обраної породи кота (картинка і текст)
 const renderBreedDesc = breed => {
   const markupPicture = `<img class="cat-picture" src="${breed.url}" alt="${breed.id}">`;
   const markupDescript = `<h2 class="cat-info-desc-title">${breed.breeds[0].name}</h2>
